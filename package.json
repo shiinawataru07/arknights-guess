@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:portable": "npm run build && python scripts/build_portable.py",
     "test": "vitest run",
     "data:build": "python scripts/build_operator_data.py"
   },
@@ -22,4 +23,3 @@
     "vitest": "latest"
   }
 }
-

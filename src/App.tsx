@@ -4,7 +4,8 @@ import { GuessBoard } from './components/GuessBoard'
 import { OperatorSearch } from './components/OperatorSearch'
 import { ResultCard } from './components/ResultCard'
 import { compareOperators } from './game/compare'
-import type { GuessResult, Operator, OperatorData } from './game/types'
+import { loadOperatorData } from './game/loadOperatorData'
+import type { GuessResult, Operator } from './game/types'
 
 function randomOperator(operators: Operator[], previousId?: string): Operator {
   const pool = operators.length > 1 ? operators.filter((operator) => operator.id !== previousId) : operators
@@ -23,11 +24,7 @@ export default function App() {
 
   useEffect(() => {
     let active = true
-    fetch('/data/operators.json')
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`)
-        return response.json() as Promise<OperatorData>
-      })
+    loadOperatorData(document.getElementById('operator-data')?.textContent)
       .then((data) => {
         if (!active) return
         if (!Array.isArray(data.operators) || data.operators.length === 0) {

@@ -1,5 +1,7 @@
 node_modules/
 dist/
+release/
+/开始游戏.html
+__pycache__/
 .tmp-gamedata/
 *.log
-
