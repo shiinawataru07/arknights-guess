@@ -1,7 +1,7 @@
 {
   "meta": {
-    "count": 425,
-    "generatedAt": "2026-08-30T02:03:03+08:00",
+    "count": 429,
+    "generatedAt": "2026-09-04T15:51:16+08:00",
     "sources": [
       "ArknightsAssets/ArknightsGamedata (CN)",
       "PRTS Wiki char_obtain Cargo table (release dates)"
@@ -5107,6 +5107,54 @@
       "race": "卡特斯",
       "attack": 671,
       "releaseDate": "2026-08-01"
+    },
+    {
+      "id": "char_4220_kormr",
+      "name": "虎狼丸",
+      "rarity": 1,
+      "profession": "近卫",
+      "subProfession": "剑豪",
+      "position": "近战位",
+      "gender": "未录入",
+      "race": "佩洛兽亲（据称）",
+      "attack": 242,
+      "releaseDate": "2026-09-04"
+    },
+    {
+      "id": "char_4218_aigis",
+      "name": "埃癸斯",
+      "rarity": 5,
+      "profession": "狙击",
+      "subProfession": "裂空炮手",
+      "position": "远程位",
+      "gender": "女",
+      "race": "未录入",
+      "attack": 882,
+      "releaseDate": "2026-09-04"
+    },
+    {
+      "id": "char_4219_yukari",
+      "name": "岳羽由加莉",
+      "rarity": 5,
+      "profession": "辅助",
+      "subProfession": "游击手",
+      "position": "远程位",
+      "gender": "女",
+      "race": "未录入",
+      "attack": 775,
+      "releaseDate": "2026-09-04"
+    },
+    {
+      "id": "char_4217_makoto",
+      "name": "结城理",
+      "rarity": 6,
+      "profession": "特种",
+      "subProfession": "傀儡师",
+      "position": "近战位",
+      "gender": "男",
+      "race": "未录入",
+      "attack": 785,
+      "releaseDate": "2026-09-04"
     }
   ]
 }
