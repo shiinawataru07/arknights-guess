@@ -1,7 +1,7 @@
 {
   "meta": {
-    "count": 429,
-    "generatedAt": "2026-09-04T15:51:16+08:00",
+    "count": 432,
+    "generatedAt": "2026-10-12T12:32:34+08:00",
     "sources": [
       "ArknightsAssets/ArknightsGamedata (CN)",
       "PRTS Wiki char_obtain Cargo table (release dates)"
@@ -5155,6 +5155,42 @@
       "race": "未录入",
       "attack": 785,
       "releaseDate": "2026-09-04"
+    },
+    {
+      "id": "char_393_toledo",
+      "name": "德·托莱多",
+      "rarity": 5,
+      "profession": "辅助",
+      "subProfession": "削弱者",
+      "position": "远程位",
+      "gender": "女",
+      "race": "黎博利",
+      "attack": 435,
+      "releaseDate": "2026-10-09"
+    },
+    {
+      "id": "char_4232_hbound",
+      "name": "旅骨",
+      "rarity": 5,
+      "profession": "特种",
+      "subProfession": "炼金师",
+      "position": "远程位",
+      "gender": "男",
+      "race": "阿戈尔",
+      "attack": 461,
+      "releaseDate": "2026-10-09"
+    },
+    {
+      "id": "char_4231_clemnt",
+      "name": "克莱门莎",
+      "rarity": 6,
+      "profession": "近卫",
+      "subProfession": "本源近卫",
+      "position": "近战位",
+      "gender": "女",
+      "race": "阿戈尔",
+      "attack": 920,
+      "releaseDate": "2026-10-09"
     }
   ]
 }
